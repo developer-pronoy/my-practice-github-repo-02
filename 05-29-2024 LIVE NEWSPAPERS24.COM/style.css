@@ -169,6 +169,8 @@ header .submenu {
     top: 95%;
     left: 0;
     overflow: hidden;
+    display: none;
+      transition: all 0.6s;
     /* transform: scale(0); */
     /* transform: translateY(-100%); */
   /* transition: all 1s; */
@@ -230,10 +232,21 @@ header .submenu2 li:hover {
   background-color: #ffcf69;
 }
 
-header .navbar > ul > li:hover .submenu ul {
+header .navbar > ul > li:nth-child(2):hover .submenu ul {
   /* transform: scale(1); */
   transform: translateY(0%);
  opacity: 01;
+}
+header .navbar > ul > li:nth-child(2):hover .submenu {
+  display: block;
+}
+header .navbar > ul > li:nth-child(7):hover .submenu ul {
+  /* transform: scale(1); */
+  transform: translateY(0%);
+ opacity: 01;
+}
+header .navbar > ul > li:nth-child(7):hover .submenu {
+  display: block;
 }
 
 /* header end */
