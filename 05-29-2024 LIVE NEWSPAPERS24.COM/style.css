@@ -1,169 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sen:wght@400..800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-family: "Roboto", sans-serif;
-    font-family: "Sen", sans-serif;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-shadow: 0 0 50px #000;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-family: "Sen", sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #585858;
+  box-shadow: 0 0 50px #00000028;
 }
 
 .banner a {
-    text-decoration: none;
-    font-family: "Sen", sans-serif;
-    font-size: 30px;
-    color: #dd3a00;
+  text-decoration: none;
+  font-family: "Sen", sans-serif;
+  font-size: 30px;
+  color: #dd3a00;
 }
 
 .container {
-    width: 96%;
-    margin: 0 auto;
+  width: 96%;
+  margin: 0 auto;
 }
 
 .headertop {
-    width: 100%;
-    background-color: #083A4D;
-    color: #fff;
-    padding: 10px 0;
+  width: 100%;
+  background-color: #083a4d;
+  color: #fff;
+  padding: 10px 0;
 }
 
 .headertop .content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .headertop .colhalf {
-    width: 48%;
+  width: 48%;
 }
 
 .headertop .two {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .headertop a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .headertop a i {
-    color: #fff;
-    font-size: 16px;
-    transition: all .4s;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.4s;
 }
 
 .headertop .one a {
-    margin-right: 20px;
-    display: inline-block;
+  margin-right: 20px;
+  display: inline-block;
 }
 
 .headertop .two a {
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 25px;
-    display: inline-block;
-    transition: all .4s;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 25px;
+  display: inline-block;
+  transition: all 0.4s;
 }
 
 .headertop .two a:hover {
-    color: rgb(255, 201, 135);
+  color: rgb(255, 201, 135);
 }
 
 .headertop .one i:hover {
-    color: rgb(255, 201, 135);
+  color: rgb(255, 201, 135);
 }
 
 /* headertop end */
 
-
 header {
-    width: 100%;
-    background-color: #fff;
-    color: black;
+  width: 100%;
+  background-color: #fff;
+  color: black;
 }
 
 header .content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header .logo {
-    width: 25%;
+  width: 25%;
 }
 
 header img {
-    width: 100%;
+  width: 100%;
 }
 
 header .navbar {
-    width: 70%;
+  width: 70%;
 }
 
 header ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header .navbar li {
-    padding: 20px 0;
-    position: relative;
+  padding: 20px 0;
+  position: relative;
 }
 
 header li a {
-    font-size: 15px;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    color: #000;
-    padding: 13px 0;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #000;
+  padding: 13px 0;
 }
 
 header li .brdr {
-    width: 100%;
-    height: 2px;
-    background-color: orange;
-    position: absolute;
-    bottom: 10px;
-    transform: scale(0);
-    /* transform-origin: 100% 0 0; */
-    transition: .4s;
+  width: 100%;
+  height: 2px;
+  background-color: orange;
+  position: absolute;
+  bottom: 10px;
+  transform: scale(0);
+  /* transform-origin: 100% 0 0; */
+  transition: 0.4s;
 }
 
 header li:hover .brdr {
-    transform: scale(1);
+  transform: scale(1);
 }
 
-header .navbar li>a:hover {
-    color: rgb(255, 166, 0);
+header .navbar li > a:hover {
+  color: rgb(255, 166, 0);
 }
 
-header .active>a {
-    color: orange;
+header .active > a {
+  color: orange;
 }
 
 header .active .brdr {
-    transform: scale(1);
+  transform: scale(1);
 }
 
 header li a i {
-    margin-left: 10px;
-    font-size: 14px;
+  margin-left: 10px;
+  font-size: 14px;
 }
 
 header .submenu {
@@ -171,649 +169,649 @@ header .submenu {
     top: 95%;
     left: 0;
     overflow: hidden;
-    transform: scale(0);
-    transition: all 1s;
-    transform-origin: 20% 0 0;
+    /* transform: scale(0); */
+    /* transform: translateY(-100%); */
+  /* transition: all 1s; */
+  /* transform-origin: 20% 0 0; */
 }
 
 header .submenu ul {
-    display: block;
-    min-width: 250px;
-    border-top: 2px solid #ffa600;
-    box-sizing: border-box;
+    /* display: block; */
+    
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  border-top: 2px solid #ffa600;
+  box-sizing: border-box;
+  transform: translateY(-100%);
+  transition: all 0.6s;
+  transform-origin: 20% 0 0;
+  opacity: 0;
 }
 
 header .submenu li {
-    width: 100%;
-    padding: 08px 13px;
-    background-color: rgb(255, 201, 85);
-    color: #000;
-    border-bottom: 1px solid rgb(141, 141, 141);
+  width: 100%;
+  padding: 08px 13px;
+  background-color: rgb(255, 201, 85);
+  color: #000;
+  border-bottom: 1px solid rgb(141, 141, 141);
 }
 
 header .submenu li a {
-    color: #000;
-    font-size: 12px;
-    font-weight: 500;
-    font-family: "Sen", sans-serif;
-    transition: .3s;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Sen", sans-serif;
+  transition: 0.3s;
 }
 
-
 header .submenu li:hover a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 header .submenu li:hover {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 header .submenu2 ul {
-    min-width: 150px;
+  min-width: 150px;
 }
 
 header .submenu2 li:hover a {
-    color: #000000;
+  color: #000000;
 }
 
 header .submenu2 li {
-    background-color: #fff;
-    transition: .3s;
+  background-color: #fff;
+  transition: 0.3s;
 }
 
 header .submenu2 li:hover {
-    background-color: #ffcf69;
+  background-color: #ffcf69;
 }
 
-header .navbar ul>li:hover .submenu {
-    transform: scale(1);
+header .navbar > ul > li:hover .submenu ul {
+  /* transform: scale(1); */
+  transform: translateY(0%);
+ opacity: 01;
 }
 
 /* header end */
 
-
 .bannerheading {
-    width: 100%;
-    padding: 15px 0 25px;
-    background-image: linear-gradient(rgba(196, 196, 196, 0.432), rgb(255, 255, 255));
-    border-bottom: 2px dotted #000;
+  width: 100%;
+  padding: 15px 0 25px;
+  background-image: linear-gradient(
+    rgba(196, 196, 196, 0.432),
+    rgb(255, 255, 255)
+  );
+  border-bottom: 2px dotted #000;
 }
 
 .bannerheading .content {
-    width: 100%;
+  width: 100%;
 }
 
 .bannerheading h2 {
-    text-align: center;
-    margin-bottom: 35px;
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 .bannerheading h2 a {
-    color: #060047;
+  color: #060047;
 }
 
 .bannerheading p a {
-    font-size: 16px;
-    font-weight: 700;
-
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .bannerheading p {
-    text-align: justify;
-    font-size: 16px;
-    color: #000;
-    line-height: 1.7;
+  text-align: justify;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.7;
 }
 
 .bannerheading p span.blue {
-    color: blue;
+  color: blue;
 }
 
 /* bannerheading end */
 
 .bannercontent {
-    width: 100%;
-    padding: 20px 0;
-    background-color: #fff;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
 }
 
-.bannercontent .container>a {
-    display: block;
-    margin-bottom: 40px;
-    margin: 0 auto 40px;
-    width: 22%;
+.bannercontent .container > a {
+  display: block;
+  margin-bottom: 40px;
+  margin: 0 auto 40px;
+  width: 22%;
 }
 
-
-.bannercontent .container>a img {
-    width: 100%;
-    box-shadow: 4px 8px 7px #a6a6a6;
+.bannercontent .container > a img {
+  width: 100%;
+  box-shadow: 4px 8px 7px #a6a6a6;
 }
 
 .bannercontent .content {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    column-gap: 2%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 2%;
 }
 
 .bannercontent .colthird {
-    width: 32%;
-    min-width: 330px;
-    background-color: rgba(210, 180, 140, 0);
-    flex: 1;
+  width: 32%;
+  min-width: 330px;
+  background-color: rgba(210, 180, 140, 0);
+  flex: 1;
+  padding: 20px;
 }
 
-.bannercontent .middle{
-    background-color: rgb(85, 85, 85);
-    padding: 05px;
+.bannercontent .middle {
+background-color: rgb(85 85 85 / 22%);
 }
 
-.bannercontent .colthird>p {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 10px;
-    color: #fff;
-    background-color: #083A4D;
-    margin-bottom: 20px;
+.bannercontent .colthird > p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  color: #fff;
+  background-color: #083a4d;
+  margin-bottom: 20px;
 }
 
 .bannercontent .colthird .img {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    border: 3px solid rgb(180, 180, 180);
-    padding: 10px;
-    cursor: pointer;
-    /* border-radius: 08px; */
-    transition: all .3s;
-    background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  /* border-radius: 08px; */
+  transition: all 0.3s;
+  background-color: #ffffff;
 }
 
 .bannercontent .img img {
-    max-width: 90%;
-    margin-bottom: 15px;
+  max-width: 90%;
+  margin-bottom: 15px;
 }
 
 .bannercontent .img p {
-    font-size: 16px;
-    color: #505050;
-    text-align: center;
+  font-size: 16px;
+  color: #505050;
+  text-align: center;
 }
 
 .bannercontent .colthird .img:hover {
-    border: 3px solid rgb(0, 0, 0);
-    transform: scale(1.05) translateY(-4px);
-    box-shadow: 0 2px 14px #505050;
-    
+  border: 1px solid rgb(0, 0, 0);
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 2px 14px #50505070;
 }
 
 .bannercontent .colthird .img:hover p {
-    font-weight: 600;
-    color: #000;
+  font-weight: 600;
+  color: #000;
 }
 
-
 .bannercontent .text {
-    width: 100%;
-    padding: 30px 0 10px;
+  width: 100%;
+  padding: 30px 0 10px;
 }
 
 .bannercontent .text h2 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #212934;
-    margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #212934;
+  margin-bottom: 25px;
 }
 
 .bannercontent .text p {
-    font-size: 16px;
-    color: #4a4e57;
-    margin-bottom: 20px;
-    text-align: justify;
-    line-height: 1.7;
+  font-size: 16px;
+  color: #4a4e57;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.7;
 }
 
 /* bannercontent end */
 
 .bangladailynewspaper {
-    width: 100%;
-    background-color: #EEEEEC;
-    padding: 30px 0;
+  width: 100%;
+  background-color: #eeeeec;
+  padding: 30px 0;
 }
 .bangladailynewspaper a {
-    font-weight: 600;
-    font-size: 28px;
-    display: block;
-    /* margin-bottom: 60px; */
-    transition: .3s;
+  font-weight: 600;
+  font-size: 28px;
+  display: block;
+  /* margin-bottom: 60px; */
+  transition: 0.3s;
 }
 
 .bangladailynewspaper a:hover {
-    color: #212934;
+  color: #212934;
 }
 
 .bangladailynewspaper .content {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: 2%;
-    row-gap: 20px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
-.bangladailynewspaper .img>p {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px;
-    color: #7c7c7c;
-    /* background-color: #083A4D; */
-    /* margin-bottom: 20px; */
+.bangladailynewspaper .img > p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  color: #7c7c7c;
+  /* background-color: #083A4D; */
+  /* margin-bottom: 20px; */
 }
 
 .bangladailynewspaper .img {
-    /* width: 24%; */
-    min-width: 240px;
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 20px; */
-    border: 1px solid rgb(180, 180, 180);
-    padding: 05px;
-    cursor: pointer;
-    /* border-radius: 08px; */
-    transition: all .1s;
-    background-color: #ffffff;
+  /* width: 24%; */
+  min-width: 240px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 12px;
+  padding: 05px;
+  cursor: pointer;
+  /* border-radius: 08px; */
+  transition: all 0.3s;
+  background-color: #ffffff;
 }
 
 .bangladailynewspaper .img img {
-    max-width: 90%;
-    margin-bottom: 15px;
+  max-width: 90%;
+  margin-bottom: 15px;
 }
 
 .bangladailynewspaper .img p {
-    font-size: 16px;
-    color: #505050;
-    text-align: center;
+  font-size: 16px;
+  color: #505050;
+  text-align: center;
 }
 
 .bangladailynewspaper .img:hover {
-    border: 1px solid rgb(0, 0, 0);
-    transform: scale(1.01) translateY(-4px);
-    box-shadow: 0 2px 14px #505050;
-    
+  border: 1px solid #00000096;
+  transform: scale(1.01) translateY(-4px);
+  box-shadow: 0 2px 14px #50505070;
 }
 
 .bangladailynewspaper .img:hover p {
-    font-weight: 600;
-    color: #000;
+  font-weight: 600;
+  color: #000;
 }
 
-
 .bangladailynewspaper .text a {
-    display: block;
-    margin-bottom: 30px;
+  display: block;
+  margin-bottom: 30px;
 }
 
 .bangladailynewspaper .text p {
-    font-size: 16px ;
-    text-align: justify;
-    color: #4a4e57;
-    line-height: 1.8;
-    margin-bottom: 18px;
+  font-size: 16px;
+  text-align: justify;
+  color: #4a4e57;
+  line-height: 1.8;
+  margin-bottom: 18px;
 }
 
 .bangladailynewspaper h2 {
-    font-size: 28px;
-    font-weight: 600;
-    color: #212934;
-    text-align: left ;
-    margin-bottom: 28px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #212934;
+  text-align: left;
+  margin-bottom: 28px;
 }
 
 .bangladailynewspaper button a {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 20px;
 }
 
 .bangladailynewspaper button {
-    background-color: #212934;
-    border: 0;
-    outline: 0;
-    margin: 20px 0;
-    border-radius: 05px;
-    transition: all .2s;
+  background-color: #212934;
+  border: 0;
+  outline: 0;
+  margin: 20px 0;
+  border-radius: 05px;
+  transition: all 0.2s;
 }
 
 .bangladailynewspaper button a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .bangladailynewspaper button:hover {
-    background-color: rgb(224, 0, 0);
+  background-color: rgb(224, 0, 0);
 }
-
 
 /* ---bangladaily newspaper end--- */
 
-
-
 .banglaonlinenewspaper {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 30px 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px 0;
 }
 .banglaonlinenewspaper a {
-    font-weight: 600;
-    font-size: 28px;
-    display: block;
-    /* margin-bottom: 60px; */
-    transition: .3s;
+  font-weight: 600;
+  font-size: 28px;
+  display: block;
+  /* margin-bottom: 60px; */
+  transition: 0.3s;
 }
 
 .banglaonlinenewspaper a:hover {
-    color: #212934;
+  color: #212934;
 }
 
 .banglaonlinenewspaper .content {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: 2%;
-    row-gap: 20px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
-.banglaonlinenewspaper .img>p {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px;
-    color: #7c7c7c;
-    /* background-color: #083A4D; */
-    /* margin-bottom: 20px; */
+.banglaonlinenewspaper .img > p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  color: #7c7c7c;
+  /* background-color: #083A4D; */
+  /* margin-bottom: 20px; */
 }
 
 .banglaonlinenewspaper .img {
-    /* width: 24%; */
-    min-width: 240px;
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 20px; */
-    border: 1px solid rgb(180, 180, 180);
-    padding: 05px;
-    cursor: pointer;
-    /* border-radius: 08px; */
-    transition: all .1s;
-    background-color: #ffffff;
+  /* width: 24%; */
+  min-width: 240px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 12px;
+  padding: 05px;
+  cursor: pointer;
+  /* border-radius: 08px; */
+  transition: all 0.3s;
+  background-color: #ffffff;
 }
 
 .banglaonlinenewspaper .img img {
-    max-width: 90%;
-    margin-bottom: 15px;
+  max-width: 90%;
+  margin-bottom: 15px;
 }
 
 .banglaonlinenewspaper .img p {
-    font-size: 16px;
-    color: #505050;
-    text-align: center;
+  font-size: 16px;
+  color: #505050;
+  text-align: center;
 }
 
 .banglaonlinenewspaper .img:hover {
-    border: 1px solid rgb(0, 0, 0);
-    transform: scale(1.01) translateY(-4px);
-    box-shadow: 0 2px 14px #505050;
-    
+  border: 1px solid rgb(0, 0, 0);
+  transform: scale(1.01) translateY(-4px);
+  box-shadow: 0 2px 14px #50505047;
 }
 
 .banglaonlinenewspaper .img:hover p {
-    font-weight: 600;
-    color: #000;
+  font-weight: 600;
+  color: #000;
 }
 
 .banglaonlinenewspaper .text p {
-    font-size: 16px ;
-    text-align: justify;
-    color: #4a4e57;
-    line-height: 1.8;
-    margin-bottom: 18px;
+  font-size: 16px;
+  text-align: justify;
+  color: #4a4e57;
+  line-height: 1.8;
+  margin-bottom: 18px;
 }
-
 
 /* banglaonline end */
 
-
 .bangladeshienglishnewspaper {
-    width: 100%;
-    background-color: #e9e9e9;
-    padding: 30px 0;
+  width: 100%;
+  background-color: #e9e9e9;
+  padding: 30px 0;
 }
 .bangladeshienglishnewspaper a {
-    font-weight: 600;
-    font-size: 28px;
-    display: block;
-    /* margin-bottom: 60px; */
-    transition: .3s;
+  font-weight: 600;
+  font-size: 28px;
+  display: block;
+  /* margin-bottom: 60px; */
+  transition: 0.3s;
 }
 
 .bangladeshienglishnewspaper a:hover {
-    color: #212934;
+  color: #212934;
 }
 
 .bangladeshienglishnewspaper .content {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: 2%;
-    row-gap: 20px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
-.bangladeshienglishnewspaper .img>p {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px;
-    color: #7c7c7c;
-    /* background-color: #083A4D; */
-    /* margin-bottom: 20px; */
+.bangladeshienglishnewspaper .img > p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  color: #7c7c7c;
+  /* background-color: #083A4D; */
+  /* margin-bottom: 20px; */
 }
 
 .bangladeshienglishnewspaper .img {
-    /* width: 24%; */
-    min-width: 240px;
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 20px; */
-    border: 1px solid rgb(180, 180, 180);
-    padding: 05px;
-    cursor: pointer;
-    /* border-radius: 08px; */
-    transition: all .1s;
-    background-color: #ffffff;
+  /* width: 24%; */
+  min-width: 240px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 12px;
+
+  padding: 05px;
+  cursor: pointer;
+  /* border-radius: 08px; */
+  transition: all 0.3s;
+
+  background-color: #ffffff;
 }
 
 .bangladeshienglishnewspaper .img img {
-    max-width: 90%;
-    margin-bottom: 15px;
+  max-width: 90%;
+  margin-bottom: 15px;
 }
 
 .bangladeshienglishnewspaper .img p {
-    font-size: 16px;
-    color: #505050;
-    text-align: center;
+  font-size: 16px;
+  color: #505050;
+  text-align: center;
 }
 
 .bangladeshienglishnewspaper .img:hover {
-    border: 1px solid rgb(0, 0, 0);
-    transform: scale(1.01) translateY(-4px);
-    box-shadow: 0 2px 14px #505050;
-    
+  border: 1px solid rgb(0, 0, 0);
+  transform: scale(1.01) translateY(-4px);
+  box-shadow: 0 2px 14px #50505047;
 }
 
 .bangladeshienglishnewspaper .img:hover p {
-    font-weight: 600;
-    color: #000;
+  font-weight: 600;
+  color: #000;
 }
 
 /* bangladeshienglishnewspaper end */
 
-
-
 .localnewspaper {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 30px 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px 0;
 }
 .localnewspaper a {
-    font-weight: 600;
-    font-size: 28px;
-    display: block;
-    /* margin-bottom: 60px; */
-    transition: .3s;
+  font-weight: 600;
+  font-size: 28px;
+  display: block;
+  /* margin-bottom: 60px; */
+  transition: 0.3s;
 }
 
 .localnewspaper a:hover {
-    color: #212934;
+  color: #212934;
 }
 
 .localnewspaper .content {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: 2%;
-    row-gap: 20px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 20px;
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
 
-.localnewspaper .img>p {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px;
-    color: #7c7c7c;
-    /* background-color: #083A4D; */
-    /* margin-bottom: 20px; */
+.localnewspaper .img > p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  color: #7c7c7c;
+  /* background-color: #083A4D; */
+  /* margin-bottom: 20px; */
 }
 
 .localnewspaper .img {
-    /* width: 24%; */
-    min-width: 230px;
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 20px; */
-    border: 1px solid rgb(180, 180, 180);
-    padding: 05px;
-    cursor: pointer;
-    /* border-radius: 08px; */
-    transition: all .1s;
-    background-color: #ffffff;
+  /* width: 24%; */
+  min-width: 230px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 12px;
+  padding: 05px;
+  cursor: pointer;
+  /* border-radius: 08px; */
+  transition: all 0.3s;
+  background-color: #ffffff;
 }
 
 .localnewspaper .img img {
-    max-width: 100%;
-    margin-bottom: 0px;
+  max-width: 100%;
+  margin-bottom: 0px;
 }
 
 .localnewspaper .img p {
-    font-size: 16px;
-    color: #505050;
-    text-align: center;
+  font-size: 16px;
+  color: #505050;
+  text-align: center;
 }
 
 .localnewspaper .img:hover {
-    border: 1px solid rgb(0, 0, 0);
-    transform: scale(1.01) translateY(-4px);
-    box-shadow: 0 2px 14px #505050;
-    
+  border: 1px solid rgb(0, 0, 0);
+  transform: scale(1.01) translateY(-4px);
+  box-shadow: 0 2px 14px #50505047;
 }
 
 .localnewspaper .img:hover p {
-    font-weight: 600;
-    color: #000;
+  font-weight: 600;
+  color: #000;
 }
 
 /* localnewspaper end */
 
-
 .footer {
-    background-color: #1D242D;
-    width: 100%;
-    padding: 25px 0;
+  background-color: #1d242d;
+  width: 100%;
+  padding: 25px 0;
 }
 
 .footer .content {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer .content p {
-    width: 100%;
-    font-size: 14px;
-    color: #fff;
-    text-align: center;
-    margin: 0 auto 05px;
-
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto 05px;
 }
 
 .footer a {
-    text-decoration: none;
-    color: red;
+  text-decoration: none;
+  color: red;
 }
 
 .footer a:hover {
-    color: blue;
+  color: blue;
 }
 
 .color {
-    width: 100%;
-    height: 1px;
-    background-color: #d00000;
-    margin: 10px 0;
-    box-shadow: 0 2px 0px #f00;
+  width: 100%;
+  height: 1px;
+  background-color: #d00000;
+  margin: 10px 0;
+  box-shadow: 0 2px 0px #f00;
 }
 
 /* footer end */
